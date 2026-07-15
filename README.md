@@ -10,7 +10,10 @@ and the app updates itself automatically once installed.
 | Platform | File | Notes |
 |---|---|---|
 | macOS (Apple Silicon + Intel) | `.dmg` | Universal — one file, works on both |
-| Windows | `.exe` (installer) or `.msi` | 64-bit |
+| Windows | `-setup.exe` | 64-bit |
+
+Each release also carries a few `.sig`, `.tar.gz` and `.zip` files. Those are what the
+built-in updater uses — you don't need to download them.
 
 ---
 
